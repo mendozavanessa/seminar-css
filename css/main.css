@@ -1,7 +1,50 @@
-figure {
-  left: 0px;
-  top: 0px;
+/*setear nuestros archivos*/
+body {
+  box-sizing: border-box;
+  color: #303030;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*clases reutilizables*/
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.box-header {
+  display: inline-block;
+}
+/* clases especificas*/
+.logo-header {
+  width: 200px;
+}
+li {
+  display: inline;
+  list-style: none;/*quita las viñetas*/
+}
+
+li a {
+  color: inherit;/*color hereda de su ancestro */
+  text-decoration: none;
+}
+
+header {
+  position: relative;
 }
 nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 
+}
+
+section {
+  text-align: center;
+}
+
+div {
+  display: inline-block;
+  width: 33%;
 }
